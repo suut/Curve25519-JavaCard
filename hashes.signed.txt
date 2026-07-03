@@ -5,13 +5,13 @@ Hash: SHA512
 | -------------- | ---------------------------------------------------------------- |
 | LFDB SHA-1     | 9f5e8bfc8669f67cfcacc4fd627e37eff6962eba                         |
 | LFDB SHA-256   | 0d015af599fbf2c121b7b5ed25771bb65b47b17141e445bf6f082392b0750c23 |
-| .cap SHA-256   | 40c4c0a82ba1e642e50b99c0f744954f636e899f7fb38b491d27bbd47e52b3ef |
-| .jar SHA-256   | ab20a1065b15c556f37616984c3e279398fc42dbf1104b58d42973f9ed59ee71 |
+| .cap SHA-256   | f81943f52d2f22ea63d773d07736bebc34a0ed69d5c233633b043db6a8e5bb22 |
+| .jar SHA-256   | 5bc1df74c6dd30476fb854dde5465b2f44b27b3bfbf3051302d044d91b21c1e4 |
 -----BEGIN PGP SIGNATURE-----
 
-iLUEARMKAB0WIQTzqfbMg3bSVACicfsbqBjbMygz5AUCakfDtwAKCRAbqBjbMygz
-5Az/Af94PoLqU90h4ZD+rd6CFRNA8eLh7FrTjJL/sXeCZz2lpoAZrWPtLI1K4CVP
-bi9lGDS6lV+8s6X8jmBDZr7jkqFgAf42o6UhCWoXJZy7S0IAcio744OqaW0Gnq9q
-hkIfPlVPk6+VlkyEm4COMMo4RGaW2iSn8414X50hf43VExeYOSD1
-=kXDv
+iLUEARMKAB0WIQTzqfbMg3bSVACicfsbqBjbMygz5AUCakfH1wAKCRAbqBjbMygz
+5OwjAf0dzRuVfwEEhzKb4lejBcRYno+Zh1MejW5U51eKicAjMbt97hTikUglbL7K
+vy5mziphNZjjkRN0WCmh2rBlgGYmAgCZ8XS3Cf8SmnXO2Ca0G1By5c14XQwMg5hJ
+XNOClNDb1YNkstpKGz/KBGAjUkRlPcj0eYo08TEfo88hN4T/BAJs
+=z8IY
 -----END PGP SIGNATURE-----
