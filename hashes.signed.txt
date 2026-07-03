@@ -1,0 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+| Hash type      | Hash value                                                       |
+| -------------- | ---------------------------------------------------------------- |
+| LFDB SHA-1     | 9f5e8bfc8669f67cfcacc4fd627e37eff6962eba                         |
+| LFDB SHA-256   | 0d015af599fbf2c121b7b5ed25771bb65b47b17141e445bf6f082392b0750c23 |
+| .cap SHA-256   | 40c4c0a82ba1e642e50b99c0f744954f636e899f7fb38b491d27bbd47e52b3ef |
+| .jar SHA-256   | ccd78d09ab62955068e3b864af4de4d2348a41c570c310f2bf3c0662db7f67a9 |
+-----BEGIN PGP SIGNATURE-----
+
+iLUEARMKAB0WIQTzqfbMg3bSVACicfsbqBjbMygz5AUCakfAGQAKCRAbqBjbMygz
+5N1FAgCSLWpbWyFrB4yEweGvFq5alLArJEBdz+q6uOOaym02saZh2tm65zbsBr29
+lA0nnLrST5p7dIDm5LsKIa+kcjOoAf9Y+WOSzHI4lt9/wwq73ftqvgVJmbl6dlLh
+huB13n/e8rS2PaDFsxZ4zz6yeLTfzS7u0jTaaJi7ODpSzbisunLs
+=Dj1X
+-----END PGP SIGNATURE-----
