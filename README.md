@@ -18,12 +18,26 @@ java -jar gp.jar --load Curve25519.cap
 Then use the export files by adding the `<import jar="curve25519.jar" />` directive in the `<cap />` tag in your `build.xml`
 when building with [ant-javacard](https://github.com/martinpaljak/ant-javacard).
 
+## Sample
+
+See the [sample](sample/) for code and usage instructions.
+
 ## API
 
 `Curve25519Signature` and `Curve25519KeyAgreement` need instances to be allocated with `new` in order to allocate
 buffers for reversing public key and signature bytes to match the little-endian formats of RFC 7748 and RFC 8032.
 
 An EdDSA signature takes about 220 ms while a X25519 key exchange takes about 50 ms.
+
+### Package imports
+
+```java
+import org.suut.javacard.pki.curve25519.Curve25519KeyBuilder;
+import org.suut.javacard.pki.curve25519.Curve25519KeyAgreement;
+import org.suut.javacard.pki.curve25519.Curve25519Signature;
+import org.suut.javacard.pki.curve25519.Curve25519PublicKey;
+import org.suut.javacard.pki.curve25519.Curve25519PrivateKey;
+```
 
 ### Keys and key generation
 
@@ -265,7 +279,7 @@ You can contact me at the email address attached to the PGP key for any question
 
 ### Hashes
 
-The hashes in `hashes.signed.txt` are signed with the same key `F3A9F6CC8376D25400A271FB1BA818DB332833E4` that is used for signing commits to this repo.
+The hashes in `hashes.signed.txt` are signed with the same key `F3A9F6CC8376D25400A271FB1BA818DB332833E4` that has been used for signing commits to this repo.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

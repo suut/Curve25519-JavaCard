@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Curve25519" default="sample" basedir=".">
+
+    <get src="https://github.com/martinpaljak/ant-javacard/releases/latest/download/ant-javacard.jar" dest="." skipexisting="true"/>
+    <taskdef name="javacard" classname="pro.javacard.ant.JavaCard" classpath="ant-javacard.jar"/>
+
+    <description>Build the project</description>
+
+    <target name="sample" description="build the sample">
+        <tstamp/>
+        <javacard jckit="sdks/jc310r20210706_kit">
+            <cap targetsdk="3.0.5" aid="ff:ff:ff:ff:ff" output="Curve25519Test.cap" package="org.suut.javacard.pki.curve25519test" strip="true" debug="false" sources="src" version="1.0" ints="false">
+    		    <applet class="org.suut.javacard.pki.curve25519test.Curve25519Test" aid="ff:ff:ff:ff:ff:01" />
+	           	<import jar="../curve25519.jar" />
+            </cap>
+        </javacard>
+    </target>
+    <target name="clean" description="clean up">
+        <delete file="Curve25519Test.cap"/>
+    </target>
+</project>
